@@ -1,0 +1,82 @@
+body{
+    background-color:black;
+}
+p1{
+    color:white;
+    font-size:30px;
+}
+.door{
+    margin-top: 200px;
+    display: inline-block;
+    border-radius: 40px;
+    background-color: gray;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 30%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .door span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+  }
+  .door span:after {
+      content: "\00bb";
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+  }
+  .door:hover span {
+      padding-right: 25px;
+  }
+    .door:hover span:after {
+      opacity: 1;
+      right: 0;
+  }
+  .boxes{
+    margin-top: 200px;
+    display: inline-block;
+    border-radius: 40px;
+    background-color: gray;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 30%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .boxes span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+  }
+  .boxes span:after {
+      content: "\00bb";
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+  }
+  .boxes:hover span {
+      padding-right: 25px;
+  }
+    .boxes:hover span:after {
+      opacity: 1;
+      right: 0;
+  }
+    
